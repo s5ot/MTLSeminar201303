@@ -1,0 +1,1 @@
+[「蜷川実花監修カメラアプリcameranのエンジニアが教える高速フィルターカメラアプリの作り方」のレジュメを公開します](http://kasajei.hatenablog.com/entry/2013/03/09/%E3%80%8C%E8%9C%B7%E5%B7%9D%E5%AE%9F%E8%8A%B1%E7%9B%A3%E4%BF%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%A2%E3%83%97%E3%83%AAcameran%E3%81%AE%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%8C%E6%95%99)の写経。GPUImageのサンプルアプリ。

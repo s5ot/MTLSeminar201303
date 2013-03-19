@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCD240E116EC99D800316DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD240E016EC99D800316DCB /* UIKit.framework */; };
+		CCD240E316EC99D800316DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD240E216EC99D800316DCB /* Foundation.framework */; };
+		CCD240E516EC99D800316DCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD240E416EC99D800316DCB /* CoreGraphics.framework */; };
+		CCD240EB16EC99D800316DCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCD240E916EC99D800316DCB /* InfoPlist.strings */; };
+		CCD240ED16EC99D800316DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD240EC16EC99D800316DCB /* main.m */; };
+		CCD240F116EC99D800316DCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD240F016EC99D800316DCB /* AppDelegate.m */; };
+		CCD240F316EC99D800316DCB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD240F216EC99D800316DCB /* Default.png */; };
+		CCD240F516EC99D800316DCB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD240F416EC99D800316DCB /* Default@2x.png */; };
+		CCD240F716EC99D800316DCB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD240F616EC99D800316DCB /* Default-568h@2x.png */; };
+		CCD240FA16EC99D800316DCB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD240F816EC99D800316DCB /* MainStoryboard.storyboard */; };
+		CCD240FD16EC99D800316DCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD240FC16EC99D800316DCB /* ViewController.m */; };
+		CCD2410516EC99D800316DCB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD2410416EC99D800316DCB /* SenTestingKit.framework */; };
+		CCD2410616EC99D800316DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD240E016EC99D800316DCB /* UIKit.framework */; };
+		CCD2410716EC99D800316DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD240E216EC99D800316DCB /* Foundation.framework */; };
+		CCD2410F16EC99D800316DCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCD2410D16EC99D800316DCB /* InfoPlist.strings */; };
+		CCD2411216EC99D800316DCB /* MTLSeminar201303Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD2411116EC99D800316DCB /* MTLSeminar201303Tests.m */; };
+		CCD2412616EC9BD600316DCB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD2412516EC9BD600316DCB /* CoreMedia.framework */; };
+		CCD2412816EC9BDF00316DCB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD2412716EC9BDF00316DCB /* CoreVideo.framework */; };
+		CCD2412A16EC9BEB00316DCB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD2412916EC9BEB00316DCB /* OpenGLES.framework */; };
+		CCD2412C16EC9BF500316DCB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD2412B16EC9BF500316DCB /* AVFoundation.framework */; };
+		CCD2412E16EC9C0000316DCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD2412D16EC9C0000316DCB /* QuartzCore.framework */; };
+		CCD2413016EC9C0800316DCB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD2412F16EC9C0800316DCB /* AssetsLibrary.framework */; };
+		CCD2413216ECBF9C00316DCB /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD2412216EC9B5700316DCB /* libGPUImage.a */; };
+		CCD2413616ECC44E00316DCB /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD2413416ECC44E00316DCB /* iphone.png */; };
+		CCD2413716ECC44E00316DCB /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD2413516ECC44E00316DCB /* sample.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD2410816EC99D800316DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD240D516EC99D700316DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD240DC16EC99D700316DCB;
+			remoteInfo = MTLSeminar201303;
+		};
+		CCD2412116EC9B5700316DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD2411B16EC9B5700316DCB /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		CCD2412316EC9B5700316DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD2411B16EC9B5700316DCB /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A34414DDB1EC00852800;
+			remoteInfo = GPUImageTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCD240DD16EC99D800316DCB /* MTLSeminar201303.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTLSeminar201303.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD240E016EC99D800316DCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCD240E216EC99D800316DCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCD240E416EC99D800316DCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCD240E816EC99D800316DCB /* MTLSeminar201303-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTLSeminar201303-Info.plist"; sourceTree = "<group>"; };
+		CCD240EA16EC99D800316DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCD240EC16EC99D800316DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD240EE16EC99D800316DCB /* MTLSeminar201303-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTLSeminar201303-Prefix.pch"; sourceTree = "<group>"; };
+		CCD240EF16EC99D800316DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCD240F016EC99D800316DCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCD240F216EC99D800316DCB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCD240F416EC99D800316DCB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCD240F616EC99D800316DCB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCD240F916EC99D800316DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CCD240FB16EC99D800316DCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCD240FC16EC99D800316DCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCD2410316EC99D800316DCB /* MTLSeminar201303Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTLSeminar201303Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD2410416EC99D800316DCB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CCD2410C16EC99D800316DCB /* MTLSeminar201303Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTLSeminar201303Tests-Info.plist"; sourceTree = "<group>"; };
+		CCD2410E16EC99D800316DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCD2411016EC99D800316DCB /* MTLSeminar201303Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLSeminar201303Tests.h; sourceTree = "<group>"; };
+		CCD2411116EC99D800316DCB /* MTLSeminar201303Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLSeminar201303Tests.m; sourceTree = "<group>"; };
+		CCD2411B16EC9B5700316DCB /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../GPUImage-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
+		CCD2412516EC9BD600316DCB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CCD2412716EC9BDF00316DCB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CCD2412916EC9BEB00316DCB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CCD2412B16EC9BF500316DCB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CCD2412D16EC9C0000316DCB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCD2412F16EC9C0800316DCB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CCD2413416ECC44E00316DCB /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+		CCD2413516ECC44E00316DCB /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD240DA16EC99D700316DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD2413216ECBF9C00316DCB /* libGPUImage.a in Frameworks */,
+				CCD2413016EC9C0800316DCB /* AssetsLibrary.framework in Frameworks */,
+				CCD2412E16EC9C0000316DCB /* QuartzCore.framework in Frameworks */,
+				CCD2412C16EC9BF500316DCB /* AVFoundation.framework in Frameworks */,
+				CCD2412A16EC9BEB00316DCB /* OpenGLES.framework in Frameworks */,
+				CCD2412816EC9BDF00316DCB /* CoreVideo.framework in Frameworks */,
+				CCD2412616EC9BD600316DCB /* CoreMedia.framework in Frameworks */,
+				CCD240E116EC99D800316DCB /* UIKit.framework in Frameworks */,
+				CCD240E316EC99D800316DCB /* Foundation.framework in Frameworks */,
+				CCD240E516EC99D800316DCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD240FF16EC99D800316DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD2410516EC99D800316DCB /* SenTestingKit.framework in Frameworks */,
+				CCD2410616EC99D800316DCB /* UIKit.framework in Frameworks */,
+				CCD2410716EC99D800316DCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCD240D416EC99D700316DCB = {
+			isa = PBXGroup;
+			children = (
+				CCD2412F16EC9C0800316DCB /* AssetsLibrary.framework */,
+				CCD2412D16EC9C0000316DCB /* QuartzCore.framework */,
+				CCD2412B16EC9BF500316DCB /* AVFoundation.framework */,
+				CCD2412916EC9BEB00316DCB /* OpenGLES.framework */,
+				CCD2412716EC9BDF00316DCB /* CoreVideo.framework */,
+				CCD2412516EC9BD600316DCB /* CoreMedia.framework */,
+				CCD240E616EC99D800316DCB /* MTLSeminar201303 */,
+				CCD2410A16EC99D800316DCB /* MTLSeminar201303Tests */,
+				CCD240DF16EC99D800316DCB /* Frameworks */,
+				CCD240DE16EC99D800316DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD240DE16EC99D800316DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD240DD16EC99D800316DCB /* MTLSeminar201303.app */,
+				CCD2410316EC99D800316DCB /* MTLSeminar201303Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD240DF16EC99D800316DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2411B16EC9B5700316DCB /* GPUImage.xcodeproj */,
+				CCD240E016EC99D800316DCB /* UIKit.framework */,
+				CCD240E216EC99D800316DCB /* Foundation.framework */,
+				CCD240E416EC99D800316DCB /* CoreGraphics.framework */,
+				CCD2410416EC99D800316DCB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCD240E616EC99D800316DCB /* MTLSeminar201303 */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2413316ECC44E00316DCB /* resource */,
+				CCD240EF16EC99D800316DCB /* AppDelegate.h */,
+				CCD240F016EC99D800316DCB /* AppDelegate.m */,
+				CCD240F816EC99D800316DCB /* MainStoryboard.storyboard */,
+				CCD240FB16EC99D800316DCB /* ViewController.h */,
+				CCD240FC16EC99D800316DCB /* ViewController.m */,
+				CCD240E716EC99D800316DCB /* Supporting Files */,
+			);
+			path = MTLSeminar201303;
+			sourceTree = "<group>";
+		};
+		CCD240E716EC99D800316DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD240E816EC99D800316DCB /* MTLSeminar201303-Info.plist */,
+				CCD240E916EC99D800316DCB /* InfoPlist.strings */,
+				CCD240EC16EC99D800316DCB /* main.m */,
+				CCD240EE16EC99D800316DCB /* MTLSeminar201303-Prefix.pch */,
+				CCD240F216EC99D800316DCB /* Default.png */,
+				CCD240F416EC99D800316DCB /* Default@2x.png */,
+				CCD240F616EC99D800316DCB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD2410A16EC99D800316DCB /* MTLSeminar201303Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2411016EC99D800316DCB /* MTLSeminar201303Tests.h */,
+				CCD2411116EC99D800316DCB /* MTLSeminar201303Tests.m */,
+				CCD2410B16EC99D800316DCB /* Supporting Files */,
+			);
+			path = MTLSeminar201303Tests;
+			sourceTree = "<group>";
+		};
+		CCD2410B16EC99D800316DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2410C16EC99D800316DCB /* MTLSeminar201303Tests-Info.plist */,
+				CCD2410D16EC99D800316DCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD2411C16EC9B5700316DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2412216EC9B5700316DCB /* libGPUImage.a */,
+				CCD2412416EC9B5700316DCB /* GPUImageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD2413316ECC44E00316DCB /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CCD2413416ECC44E00316DCB /* iphone.png */,
+				CCD2413516ECC44E00316DCB /* sample.png */,
+			);
+			name = resource;
+			path = "../../../Downloads/MTLSeminar201303-master/resource";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD240DC16EC99D700316DCB /* MTLSeminar201303 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD2411516EC99D800316DCB /* Build configuration list for PBXNativeTarget "MTLSeminar201303" */;
+			buildPhases = (
+				CCD240D916EC99D700316DCB /* Sources */,
+				CCD240DA16EC99D700316DCB /* Frameworks */,
+				CCD240DB16EC99D700316DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTLSeminar201303;
+			productName = MTLSeminar201303;
+			productReference = CCD240DD16EC99D800316DCB /* MTLSeminar201303.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD2410216EC99D800316DCB /* MTLSeminar201303Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD2411816EC99D800316DCB /* Build configuration list for PBXNativeTarget "MTLSeminar201303Tests" */;
+			buildPhases = (
+				CCD240FE16EC99D800316DCB /* Sources */,
+				CCD240FF16EC99D800316DCB /* Frameworks */,
+				CCD2410016EC99D800316DCB /* Resources */,
+				CCD2410116EC99D800316DCB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD2410916EC99D800316DCB /* PBXTargetDependency */,
+			);
+			name = MTLSeminar201303Tests;
+			productName = MTLSeminar201303Tests;
+			productReference = CCD2410316EC99D800316DCB /* MTLSeminar201303Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD240D516EC99D700316DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sogo;
+			};
+			buildConfigurationList = CCD240D816EC99D700316DCB /* Build configuration list for PBXProject "MTLSeminar201303" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCD240D416EC99D700316DCB;
+			productRefGroup = CCD240DE16EC99D800316DCB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CCD2411C16EC9B5700316DCB /* Products */;
+					ProjectRef = CCD2411B16EC9B5700316DCB /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CCD240DC16EC99D700316DCB /* MTLSeminar201303 */,
+				CCD2410216EC99D800316DCB /* MTLSeminar201303Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CCD2412216EC9B5700316DCB /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = CCD2412116EC9B5700316DCB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCD2412416EC9B5700316DCB /* GPUImageTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests.octest;
+			remoteRef = CCD2412316EC9B5700316DCB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD240DB16EC99D700316DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD240EB16EC99D800316DCB /* InfoPlist.strings in Resources */,
+				CCD240F316EC99D800316DCB /* Default.png in Resources */,
+				CCD240F516EC99D800316DCB /* Default@2x.png in Resources */,
+				CCD240F716EC99D800316DCB /* Default-568h@2x.png in Resources */,
+				CCD240FA16EC99D800316DCB /* MainStoryboard.storyboard in Resources */,
+				CCD2413616ECC44E00316DCB /* iphone.png in Resources */,
+				CCD2413716ECC44E00316DCB /* sample.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD2410016EC99D800316DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD2410F16EC99D800316DCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CCD2410116EC99D800316DCB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD240D916EC99D700316DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD240ED16EC99D800316DCB /* main.m in Sources */,
+				CCD240F116EC99D800316DCB /* AppDelegate.m in Sources */,
+				CCD240FD16EC99D800316DCB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD240FE16EC99D800316DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD2411216EC99D800316DCB /* MTLSeminar201303Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD2410916EC99D800316DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD240DC16EC99D700316DCB /* MTLSeminar201303 */;
+			targetProxy = CCD2410816EC99D800316DCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD240E916EC99D800316DCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD240EA16EC99D800316DCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCD240F816EC99D800316DCB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD240F916EC99D800316DCB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD2410D16EC99D800316DCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD2410E16EC99D800316DCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD2411316EC99D800316DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCD2411416EC99D800316DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD2411616EC99D800316DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTLSeminar201303/MTLSeminar201303-Prefix.pch";
+				HEADER_SEARCH_PATHS = "GPUImage-master/framework/**";
+				INFOPLIST_FILE = "MTLSeminar201303/MTLSeminar201303-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCD2411716EC99D800316DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTLSeminar201303/MTLSeminar201303-Prefix.pch";
+				HEADER_SEARCH_PATHS = "GPUImage-master/framework/**";
+				INFOPLIST_FILE = "MTLSeminar201303/MTLSeminar201303-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCD2411916EC99D800316DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLSeminar201303.app/MTLSeminar201303";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTLSeminar201303/MTLSeminar201303-Prefix.pch";
+				INFOPLIST_FILE = "MTLSeminar201303Tests/MTLSeminar201303Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CCD2411A16EC99D800316DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTLSeminar201303.app/MTLSeminar201303";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTLSeminar201303/MTLSeminar201303-Prefix.pch";
+				INFOPLIST_FILE = "MTLSeminar201303Tests/MTLSeminar201303Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD240D816EC99D700316DCB /* Build configuration list for PBXProject "MTLSeminar201303" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD2411316EC99D800316DCB /* Debug */,
+				CCD2411416EC99D800316DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD2411516EC99D800316DCB /* Build configuration list for PBXNativeTarget "MTLSeminar201303" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD2411616EC99D800316DCB /* Debug */,
+				CCD2411716EC99D800316DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCD2411816EC99D800316DCB /* Build configuration list for PBXNativeTarget "MTLSeminar201303Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD2411916EC99D800316DCB /* Debug */,
+				CCD2411A16EC99D800316DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD240D516EC99D700316DCB /* Project object */;
+}
